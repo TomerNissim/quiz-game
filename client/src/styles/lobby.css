@@ -1,0 +1,60 @@
+.lobby-container {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lobby-title {
+  font-size: 6rem;
+}
+.player-input {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+.lobby-buttons {
+  margin-top: 2rem;
+}
+.lobby-buttons button {
+  margin-left: 10px;
+}
+.btn {
+  color: black;
+  font-size: 1.6rem;
+  background-color: rgba(64, 224, 117, 0.315);
+}
+.login-error {
+  margin-top: 40px;
+  font-size: 25px;
+}
+#log-in-btn {
+  display: block;
+  margin-left: 120px;
+  margin-top: 10vh;
+}
+#log-out-btn {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 20vh;
+  margin-left: 6vw;
+  border-color: black;
+  color: black;
+}
+#log-out-btn:hover {
+  color: rgb(184, 20, 20);
+}
+.lobby-name {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.fa-sign-out-alt {
+  margin-left: 8px;
+}
+.sign-up-span {
+  margin-left: 2vw;
+  font-size: 20px;
+}
